@@ -1,0 +1,1007 @@
+{
+  "id": "xl2101200.app.sub",
+  "name": "tom 脚本订阅",
+  "author": "@tom",
+  "icon": "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png",
+  "repo": "https://github.com/xl2101200/-",
+  "apps": [
+    {
+    "id": "days",
+    "name": "28days",
+    "keys": ["daysheader","daysbody","daysheader2","daysbody2","daysheader3","daysbody3","daysheader4","daysbody4","daysheader5","daysbody5"],
+    "author": "@tom",
+    "settings": [{
+      "id": "daysSuffix",
+      "name": "当前账号",
+      "val": "1",
+      "type": "number",
+      "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    }, {
+      "id": "daysCount",
+      "name": "账号个数",
+      "val": "1",
+      "type": "number",
+      "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    }, {
+      "id": "daysXH",
+      "name": "循环获取ck",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "daysTXTX",
+      "name": "txtx",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "daysSC",
+      "name": "sc",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "daysnotifyttt",
+      "name": "推送控制",
+      "val": "1",
+      "type": "number",
+      "desc": "0关闭，1推送,默认12点以及23点推送"
+    }, {
+      "id": "daysnotifyInterval",
+      "name": "通知控制",
+      "val": "2",
+      "type": "number",
+      "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+    }, {
+      "id": "daysMinutes",
+      "name": "推送-通知 分钟控制",
+      "val": "10",
+      "type": "number",
+      "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+    }],
+    "repo": "https://raw.githubusercontent.com/xl2101200/-/main/days.js",
+    "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+    "script": "https://raw.githubusercontent.com/xl2101200/-/main/days.js"
+    },{    
+    "id": "ifaqc",
+    "name": "爱企查",
+    "keys": ["aqcck","aqcck2","aqcck3","aqcck4","aqcck5"],
+    "author": "@tom",
+    "repo": "https://raw.githubusercontent.com/qq83184143/box/main/ifaqc.js",
+    "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+    "script": "https://raw.githubusercontent.com/qq83184143/box/main/ifaqc.js"
+    },{
+    "id": "jscfz",
+    "name": "嘉实宠粉站",
+    "keys": ["jscfzheader","jscfzheader2","jscfzheader3","jscfzheader4","jscfzheader5","jscfzheader6","jscfzheader7","jscfzheader8","jscfzheader9","jscfzheader10","jscfzheader11","jscfzheader12","jscfzheader13","jscfzheader14","jscfzheader15"],
+    "author": "@tom",
+    "settings": [{
+      "id": "jscfzSuffix",
+      "name": "当前账号",
+      "val": "1",
+      "type": "number",
+      "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    }, {
+      "id": "jscfzCount",
+      "name": "账号个数",
+      "val": "1",
+      "type": "number",
+      "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    }, {
+      "id": "jscfzXH",
+      "name": "循环获取ck",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "jscfzTXTX",
+      "name": "txtx",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "jscfzSC",
+      "name": "sc",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "jscfznotifyttt",
+      "name": "推送控制",
+      "val": "1",
+      "type": "number",
+      "desc": "0关闭，1推送,默认12点以及23点推送"
+    }, {
+      "id": "jscfznotifyInterval",
+      "name": "通知控制",
+      "val": "2",
+      "type": "number",
+      "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+    }, {
+      "id": "jscfzMinutes",
+      "name": "推送-通知 分钟控制",
+      "val": "10",
+      "type": "number",
+      "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+    }],
+    "repo": "https://raw.githubusercontent.com/xl2101200/-/main/jscfz.js",
+    "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+    "script": "https://raw.githubusercontent.com/xl2101200/-/main/jscfz.js"
+    },
+    {
+    "id": "ddgy",
+    "name": "弟弟果园",
+    "keys": ["ddgyurl","ddgyheader","ddgyurl2","ddgyheader2","ddgyurl3","ddgyheader3","ddgyurl4","ddgyheader4","ddgyurl5","ddgyheader5","ddgyurl6","ddgyheader6","ddgyurl7","ddgyheader7","ddgyurl8","ddgyheader8","ddgyurl9","ddgyheader9","ddgyurl10","ddgyheader10","ddgyurl11","ddgyheader11","ddgyurl12","ddgyheader12","ddgyurl13","ddgyheader13","ddgyurl14","ddgyheader14","ddgyurl15","ddgyheader15"],
+    "author": "@tom",
+    "settings": [{
+      "id": "ddgySuffix",
+      "name": "当前账号",
+      "val": "1",
+      "type": "number",
+      "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    }, {
+      "id": "ddgyCount",
+      "name": "账号个数",
+      "val": "1",
+      "type": "number",
+      "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    }, {
+      "id": "ddgyXH",
+      "name": "循环获取ck",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "ddgyTXTX",
+      "name": "txtx",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "ddgySC",
+      "name": "sc",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "ddgynotifyttt",
+      "name": "推送控制",
+      "val": "1",
+      "type": "number",
+      "desc": "0关闭，1推送,默认12点以及23点推送"
+    }, {
+      "id": "ddgynotifyInterval",
+      "name": "通知控制",
+      "val": "2",
+      "type": "number",
+      "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+    }, {
+      "id": "ddgyMinutes",
+      "name": "推送-通知 分钟控制",
+      "val": "10",
+      "type": "number",
+      "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+    }],
+    "repo": "https://raw.githubusercontent.com/xl2101200/-/main/ddgy.js",
+    "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+    "script": "https://raw.githubusercontent.com/xl2101200/-/main/ddgy.js"
+    },
+    {
+    "id": "yyd",
+    "name": "云阅读",
+    "keys": ["yydheader","yydheader2","yydheader3","yydheader4","yydheader5","yydheader6","yydheader7","yydheader8","yydheader9","yydheader10","yydheader11","yydheader12","yydheader13","yydheader14","yydheader15"],
+    "author": "@tom",
+    "settings": [{
+      "id": "yydSuffix",
+      "name": "当前账号",
+      "val": "1",
+      "type": "number",
+      "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    }, {
+      "id": "yydCount",
+      "name": "账号个数",
+      "val": "1",
+      "type": "number",
+      "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    }, {
+      "id": "yydXH",
+      "name": "循环获取ck",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "yydTXTX",
+      "name": "txtx",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "yydSC",
+      "name": "sc",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "yydnotifyttt",
+      "name": "推送控制",
+      "val": "1",
+      "type": "number",
+      "desc": "0关闭，1推送,默认12点以及23点推送"
+    }, {
+      "id": "yydnotifyInterval",
+      "name": "通知控制",
+      "val": "2",
+      "type": "number",
+      "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+    }, {
+      "id": "yydMinutes",
+      "name": "推送-通知 分钟控制",
+      "val": "10",
+      "type": "number",
+      "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+    }],
+    "repo": "https://raw.githubusercontent.com/xl2101200/-/main/yyd.js",
+    "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+    "script": "https://raw.githubusercontent.com/xl2101200/-/main/yyd.js"
+    },
+ {  
+  "id": "qmrd",
+  "name": "全民热点",
+  "keys": ["qmrdheader","qmrdheader2","qmrdheader3","qmrdheader4","qmrdheader5"],
+  "author": "@tom",
+  "settings": [{
+    "id": "qmrdSuffix",
+    "name": "当前账号",
+    "val": "1",
+    "type": "number",
+    "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+  }, {
+    "id": "qmrdCount",
+    "name": "账号个数",
+    "val": "1",
+    "type": "number",
+    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+  }, {
+    "id": "qmrdXH",
+    "name": "循环获取ck",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "qmrdTXTX",
+    "name": "txtx",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "qmrdSC",
+    "name": "sc",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "qmrdnotifyttt",
+    "name": "推送控制",
+    "val": "1",
+    "type": "number",
+    "desc": "0关闭，1推送,默认12点以及23点推送"
+  }, {
+    "id": "qmrdnotifyInterval",
+    "name": "通知控制",
+    "val": "2",
+    "type": "number",
+    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+  }, {
+    "id": "qmrdMinutes",
+    "name": "推送-通知 分钟控制",
+    "val": "10",
+    "type": "number",
+    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+  }],
+  "repo": "https://raw.githubusercontent.com/xl2101200/-/main/qmrd.js",
+  "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+  "script": "https://raw.githubusercontent.com/xl2101200/-/main/qmrd.js"
+    },   
+{  
+  "id": "qhs",
+  "name": "轻换算",
+  "keys": ["qhsheader","qhsqdbody","qhsjlspbody","qhsgkspbody","qhsfxhybody","qhsheader2","qhsqdbody2","qhsjlspbody2","qhsgkspbody2","qhsfxhybody2","qhsheader3","qhsqdbody3","qhsjlspbody3","qhsgkspbody3","qhsfxhybody3"],
+  "author": "@tom",
+  "settings": [{
+    "id": "qhsSuffix",
+    "name": "当前账号",
+    "val": "1",
+    "type": "number",
+    "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+  }, {
+    "id": "qhsCount",
+    "name": "账号个数",
+    "val": "1",
+    "type": "number",
+    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+  }, {
+    "id": "qhsXH",
+    "name": "循环获取ck",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "qhsTXTX",
+    "name": "txtx",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "qhsSC",
+    "name": "sc",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "qhsnotifyttt",
+    "name": "推送控制",
+    "val": "1",
+    "type": "number",
+    "desc": "0关闭，1推送,默认12点以及23点推送"
+  }, {
+    "id": "qhsnotifyInterval",
+    "name": "通知控制",
+    "val": "2",
+    "type": "number",
+    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+  }, {
+    "id": "qhsMinutes",
+    "name": "推送-通知 分钟控制",
+    "val": "10",
+    "type": "number",
+    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+  }],
+  "repo": "https://raw.githubusercontent.com/xl2101200/-/main/qhs.js",
+  "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+  "script": "https://raw.githubusercontent.com/xl2101200/-/main/qhs.js"
+    },    
+{  
+  "id": "gqsl",
+  "name": "广汽三菱",
+  "keys": ["gqslheader", "gqslbody","gqslheader2", "gqslbody2","gqslheader3", "gqslbody3","gqslheader4", "gqslbody4","gqslheader5", "gqslbody5"],
+  "author": "@tom",
+  "settings": [{
+    "id": "gqslSuffix",
+    "name": "当前账号",
+    "val": "1",
+    "type": "number",
+    "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+  }, {
+    "id": "gqslCount",
+    "name": "账号个数",
+    "val": "1",
+    "type": "number",
+    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+  }, {
+    "id": "gqslXH",
+    "name": "循环获取ck",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "gqslTXTX",
+    "name": "txtx",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "gqslSC",
+    "name": "sc",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "gqslnotifyttt",
+    "name": "推送控制",
+    "val": "1",
+    "type": "number",
+    "desc": "0关闭，1推送,默认12点以及23点推送"
+  }, {
+    "id": "gqslnotifyInterval",
+    "name": "通知控制",
+    "val": "2",
+    "type": "number",
+    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+  }, {
+    "id": "gqslMinutes",
+    "name": "推送-通知 分钟控制",
+    "val": "10",
+    "type": "number",
+    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+  }],
+  "repo": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js",
+  "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+  "script": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js"
+    },
+    
+    {
+      "id": "jztt",
+  "name": "九章头条",
+  "keys": ["jztturl", "jztturl2", "jztturl3", "jztturl4", "jztturl5", "jztturl6", "jztturl7", "jztturl8", "jztturl9", "jztturl10", "jztturl11", "jztturl12", "jztturl13", "jztturl14", "jztturl15", "jztturl16", "jztturl17", "jztturl18", "jztturl19", "jztturl20"],
+  "author": "@tom",
+  "settings": [{
+    "id": "jzttSuffix",
+    "name": "当前账号",
+    "val": "1",
+    "type": "number",
+    "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+  }, {
+    "id": "jzttCount",
+    "name": "账号个数",
+    "val": "1",
+    "type": "number",
+    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+  }, {
+    "id": "jzttXH",
+    "name": "循环获取ck",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "jzttTXTX",
+    "name": "txtx",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "jzttSC",
+    "name": "sc",
+    "val": "0",
+    "type": "number",
+    "desc": "0关闭，1打开，默认关闭"
+  }, {
+    "id": "jzttnotifyttt",
+    "name": "推送控制",
+    "val": "1",
+    "type": "number",
+    "desc": "0关闭，1推送,默认12点以及23点推送"
+  }, {
+    "id": "jzttnotifyInterval",
+    "name": "通知控制",
+    "val": "2",
+    "type": "number",
+    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+  }, {
+    "id": "jzttMinutes",
+    "name": "推送-通知 分钟控制",
+    "val": "10",
+    "type": "number",
+    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+  }],
+                        "repo": "https://raw.githubusercontent.com/xl2101200/-/main/jztt.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/xl2101200/-/main/jztt.js"
+  },
+  
+  
+  
+  {
+    "id": "ycb",
+        "name": "永晨宝",
+            "keys": ["ycbhd","ycbhd2","ycbhd3","ycbhd4","ycbhd5"],
+                "author": "@tom",
+                    "settings": [{
+                        "id": "ycbstatus",
+                        "name": "当前账号",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+                    }, {
+                        "id": "ycbcount",
+                        "name": "账号个数",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                    }, {
+                        "id": "tz",
+                        "name": "通知",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "0关闭通知，1打开通知"
+                    }, {
+                        "id": "tx",
+                        "name": "提现",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "0关闭，1打开"
+                    }],
+                        "repo": "https://raw.githubusercontent.com/xl2101200/-/main/ycb.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/xl2101200/-/main/ycb.js"
+  },
+  
+    {
+            "id": "yt",
+            "name": "炎兔",
+            "keys": ["ythd","ytbody","ythd2","ytbody2","ythd3","ytbody3","ythd4","ytbody4","ythd5","ytbody5"],
+            "author": "@tom",
+            "settings": [{
+            "id": "ytstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    },{
+            "id": "ytcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    },{
+            "id": "tz",
+            "name": "通知",
+            "val": "1",
+            "type": "number",
+            "desc": "0关闭通知，1打开通知"
+    }],
+            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/yt.js",
+            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+            "script": "https://raw.githubusercontent.com/xl2101200/-/main/yt.js"
+    },
+   
+    
+    {
+            "id": "dk",
+            "name": "蛋咖(安卓)",
+            "keys": ["dkhd","dkbody","dk2body","dkhd2","dkbody2","dk2body2","dkhd3","dkbody3","dk2body3","dkhd4","dkbody4","dk2body4","dkhd5","dkbody5","dk2body5"],
+            "author": "@tom",
+            "settings": [{
+            "id": "dkstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    },{
+            "id": "dkcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    },{
+            "id": "tz",
+            "name": "通知",
+            "val": "1",
+            "type": "number",
+            "desc": "0关闭通知，1打开通知"
+    }],
+            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/dk.js",
+            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+            "script": "https://raw.githubusercontent.com/xl2101200/-/main/dk.js"
+    },
+    
+    {
+            "id": "kxddx",
+            "name": "开心点点消",
+            "keys": ["kxddxhd","kxddxbody","kxddxhd2","kxddxbody2","kxddxhd3","kxddxbody3","kxddxhd4","kxddxbody4","kxddxhd5","kxddxbody5"],
+            "author": "@tom",
+            "settings": [{
+            "id": "kxddxstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    },{
+            "id": "kxddxcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    },{
+            "id": "tz",
+            "name": "通知",
+            "val": "1",
+            "type": "number",
+            "desc": "0关闭通知，1打开通知"
+    }],
+            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/kxddx.js",
+            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+            "script": "https://raw.githubusercontent.com/xl2101200/-/main/kxddx.js"
+    },
+    
+    {
+            "id": "ylsh",
+            "name": "引力生活",
+            "keys": ["ylshurl","ylshhd","ylshbody","ylshurl2","ylshhd2","ylshbody2"],
+            "author": "@tom",
+            "settings": [{
+            "id": "ylshstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    },{
+            "id": "ylshcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    },{
+            "id": "tz",
+            "name": "通知",
+            "val": "1",
+            "type": "number",
+            "desc": "0关闭通知，1打开通知"
+    }],
+            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/ylsh.js",
+            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+            "script": "https://raw.githubusercontent.com/xl2101200/-/main/ylsh.js"
+    },
+    
+    
+    {
+            "id": "cgsd",
+            "name": "草根时代",
+            "keys": ["cgsdbody","cgsdhd","sphd","sp1body","sp2body","sp3body","cgsdbody2","cgsdhd2","sphd2","sp1body2","sp2body2","sp3body2","cgsdbody3","cgsdhd3","sphd3","sp1body3","sp2body3","sp3body3"],
+            "author": "@tom",
+            "settings": [{
+            "id": "cgsdstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    },{
+            "id": "cgsdcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    },{
+            "id": "tz",
+            "name": "通知",
+            "val": "1",
+            "type": "number",
+            "desc": "0关闭通知，1打开通知"
+    },{
+            "id": "ckck",
+            "name": "ck",
+            "val": "",
+            "type": "String",
+            "desc": ""
+    },{
+            "id": "sp1",
+            "name": "视频1",
+            "val": "",
+            "type": "String",
+            "desc": ""
+    },{
+            "id": "sp2",
+            "name": "视频2",
+            "val": "",
+            "type": "String",
+            "desc": ""
+    },{
+            "id": "sp3",
+            "name": "视频3",
+            "val": "",
+            "type": "String",
+            "desc": ""
+    }],
+            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/cgsd.js",
+            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+            "script": "https://raw.githubusercontent.com/xl2101200/-/main/cgsd.js"
+    },
+    
+    
+    {
+            "id": "zduoduo",
+            "name": "赚多多",
+            "keys": ["zduoduourl","zduoduohd","zduoduobody","zduoduourl2","zduoduohd2","zduoduobody2"],
+            "author": "@tom",
+            "settings": [{
+            "id": "zduoduostatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    },{
+            "id": "zduoduocount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    },{
+            "id": "tz",
+            "name": "通知",
+            "val": "1",
+            "type": "number",
+            "desc": "0关闭通知，1打开通知"
+    }],
+            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/zdd.js",
+            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+            "script": "https://raw.githubusercontent.com/xl2101200/-/main/zdd.js"
+    },
+    
+    {
+            "id": "xbzs",
+            "name": "小宝种树",
+            "keys": ["xbzsurl","xbzshd","xbzsurl2","xbzshd2","xbzsurl3","xbzshd3"],
+            "author": "@tom",
+            "settings": [{
+            "id": "wgcstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    },{
+            "id": "wgccount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    },{
+            "id": "sl",
+            "name": "兑互动宝石",
+            "val": "10",
+            "type": "number",
+            "desc": "互动宝石数量默认10,可自行更改(50,100,200,1000等)"
+    }],
+            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/xbzs.js",
+            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+            "script": "https://raw.githubusercontent.com/xl2101200/-/main/xbzs.js"
+    },
+    
+    
+    {
+            "id": "WGC",
+            "name": "WGC",
+            "keys": ["wgcurl","wgchd","wgcurl2","wgchd2","wgcurl3","wgchd3"],
+            "author": "@tom",
+            "settings": [{
+            "id": "wgcstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    },{
+            "id": "wgccount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    },{
+            "id": "hf",
+            "name": "兑换话费",
+            "val": "0",
+            "type": "number",
+            "desc": "0关闭，1打开，默认关闭"
+    },{
+            "id": "qp",
+            "name": "收取邀请气泡",
+            "val": "0",
+            "type": "number",
+            "desc": "默认关闭，0关闭，1打开"
+    }],
+            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/wgc.js",
+            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+            "script": "https://raw.githubusercontent.com/xl2101200/-/main/wgc.js"
+    },
+    
+    
+    
+    {
+            "id": "zb",
+            "name": "ZEALER",
+            "keys": ["zburl", "zbhd","zbbody","zb1body","zb2body","zburl2", "zbhd2","zbbody2","zb1body2","zb2body2"],
+            "author": "@tom",
+            "settings": [{
+            "id": "zbstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    },{
+            "id": "zbcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    },{
+            "id": "tz",
+            "name": "通知",
+            "val": "1",
+            "type": "number",
+            "desc": "0关闭通知，1打开通知"
+    }],
+            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/zb.js",
+            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+            "script": "https://raw.githubusercontent.com/xl2101200/-/main/zb.js"
+    },
+    
+    
+
+    {  
+    "id": "tqyb",
+    "name": "天气预报",
+    "keys": ["tqybheader", "tqybbody","tqybheader2", "tqybbody2","tqybheader3", "tqybbody3","tqybheader4", "tqybbody4","tqybheader5", "tqybbody5"],
+    "author": "@tom",
+    "settings": [{
+      "id": "tqybSuffix",
+      "name": "当前账号",
+      "val": "1",
+      "type": "number",
+      "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    }, {
+      "id": "tqybCount",
+      "name": "账号个数",
+      "val": "1",
+      "type": "number",
+      "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    }, {
+      "id": "tqybXH",
+      "name": "循环获取ck",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "tqybTXTX",
+      "name": "txtx",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "tqybSC",
+      "name": "sc",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "tqybnotifyttt",
+      "name": "推送控制",
+      "val": "1",
+      "type": "number",
+      "desc": "0关闭，1推送,默认12点以及23点推送"
+    }, {
+      "id": "tqybnotifyInterval",
+      "name": "通知控制",
+      "val": "2",
+      "type": "number",
+      "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+    }, {
+      "id": "tqybMinutes",
+      "name": "推送-通知 分钟控制",
+      "val": "10",
+      "type": "number",
+      "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+    }],
+    "repo": "https://raw.githubusercontent.com/xl2101200/-/main/tqyb.js",
+    "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+    "script": "https://raw.githubusercontent.com/xl2101200/-/main/tqyb.js"
+    } ,
+    
+    
+    {
+        "id": "hmd",
+    "name": "和睦",
+    "keys": ["hmdbody", "hmdbody2", "hmdbody3", "hmdbody4", "hmdbody5", "hmdbody6", "hmdbody7", "hmdbody8"],
+    "author": "@tom",
+    "settings": [{
+      "id": "hmdSuffix",
+      "name": "当前账号",
+      "val": "1",
+      "type": "number",
+      "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    }, {
+      "id": "hmdCount",
+      "name": "账号个数",
+      "val": "1",
+      "type": "number",
+      "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    }, {
+      "id": "hmdXH",
+      "name": "循环获取ck",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "hmdTXTX",
+      "name": "txtx",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "hmdSC",
+      "name": "sc",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "hmdnotifyttt",
+      "name": "推送控制",
+      "val": "1",
+      "type": "number",
+      "desc": "0关闭，1推送,默认12点以及23点推送"
+    }, {
+      "id": "hmdnotifyInterval",
+      "name": "通知控制",
+      "val": "2",
+      "type": "number",
+      "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+    }, {
+      "id": "hmdMinutes",
+      "name": "推送-通知 分钟控制",
+      "val": "10",
+      "type": "number",
+      "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+    }],
+       "repo": "https://raw.githubusercontent.com/xl2101200/-/main/hmd.js",
+       "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+       "script": "https://raw.githubusercontent.com/xl2101200/-/main/hmd.js"
+    },
+
+ 
+    {
+        "id": "hcwl",
+    "name": "火车问路",
+    "keys": ["hcwlbody", "hcwlbody2", "hcwlbody3", "hcwlbody4", "hcwlbody5", "hcwlbody6", "hcwlbody7", "hcwlbody8"],
+    "author": "@tom",
+    "settings": [{
+      "id": "hcwlSuffix",
+      "name": "当前账号",
+      "val": "1",
+      "type": "number",
+      "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    }, {
+      "id": "hcwlCount",
+      "name": "账号个数",
+      "val": "1",
+      "type": "number",
+      "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    }, {
+      "id": "hcwlXH",
+      "name": "循环获取ck",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "hcwlTXTX",
+      "name": "txtx",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "hcwlSC",
+      "name": "sc",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "hcwlnotifyttt",
+      "name": "推送控制",
+      "val": "1",
+      "type": "number",
+      "desc": "0关闭，1推送,默认12点以及23点推送"
+    }, {
+      "id": "hcwlnotifyInterval",
+      "name": "通知控制",
+      "val": "2",
+      "type": "number",
+      "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+    }, {
+      "id": "hcwlMinutes",
+      "name": "推送-通知 分钟控制",
+      "val": "10",
+      "type": "number",
+      "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+    },{
+       "id": "sjh",
+       "name": "手机号",
+       "val": "0",
+       "type": "number",
+       "desc": "填写手机号"
+    },{
+       "id": "yzm",
+       "name": "验证码",
+       "val": "0",
+       "type": "number",
+       "desc": "验证码"
+    }
+    ],
+       "repo": "https://raw.githubusercontent.com/xl2101200/-/main/hcwl.js",
+       "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+       "script": "https://raw.githubusercontent.com/xl2101200/-/main/hcwl.js"
+    }
